@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 
 
-use App\Models\mutasi;
+use App\Models\Mutasi;
 
 
 class BarangMasukController extends Controller
