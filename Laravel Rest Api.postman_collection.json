@@ -1,7 +1,7 @@
 {
 	"info": {
 		"_postman_id": "992896d5-cb78-4930-85a8-2985caaadbe4",
-		"name": "TEst Coding",
+		"name": "Laravel Rest Api",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
@@ -38,15 +38,10 @@
 									}
 								],
 								"url": {
-									"raw": "http://127.0.0.1:8000/api/barang",
-									"protocol": "http",
+									"raw": "{{base_url}}/api/barang",
 									"host": [
-										"127",
-										"0",
-										"0",
-										"1"
+										"{{base_url}}"
 									],
-									"port": "8000",
 									"path": [
 										"api",
 										"barang"
@@ -82,15 +77,10 @@
 									}
 								],
 								"url": {
-									"raw": "http://127.0.0.1:8000/api/barang/1",
-									"protocol": "http",
+									"raw": "{{base_url}}/api/barang/1",
 									"host": [
-										"127",
-										"0",
-										"0",
-										"1"
+										"{{base_url}}"
 									],
-									"port": "8000",
 									"path": [
 										"api",
 										"barang",
@@ -127,15 +117,10 @@
 									}
 								],
 								"url": {
-									"raw": "http://127.0.0.1:8000/api/barang/cari/indo",
-									"protocol": "http",
+									"raw": "{{base_url}}/api/barang/cari/indo",
 									"host": [
-										"127",
-										"0",
-										"0",
-										"1"
+										"{{base_url}}"
 									],
-									"port": "8000",
 									"path": [
 										"api",
 										"barang",
@@ -174,18 +159,13 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n\"barang_kode\": \"M0005\",\r\n\"kategori_id\": 1,\r\n\"barang_nama\": \"Sarimi\",\r\n\"barang_barcode\": \"1444545\",\r\n\"barang_satuan\": \"PCS\"\r\n}\r\n"
+									"raw": "{\r\n\"barang_kode\": \"M0006\",\r\n\"kategori_id\": 1,\r\n\"barang_nama\": \"Sarimi\",\r\n\"barang_barcode\": \"1444545\",\r\n\"barang_satuan\": \"PCS\"\r\n}\r\n"
 								},
 								"url": {
-									"raw": "http://127.0.0.1:8000/api/barang",
-									"protocol": "http",
+									"raw": "{{base_url}}/api/barang",
 									"host": [
-										"127",
-										"0",
-										"0",
-										"1"
+										"{{base_url}}"
 									],
-									"port": "8000",
 									"path": [
 										"api",
 										"barang"
@@ -225,15 +205,10 @@
 									"raw": "{\r\n\"kategori_id\": 1,\r\n\"barang_nama\": \"Indomie\",\r\n\"barang_barcode\": \"12585444\",\r\n\"barang_satuan\": \"PCS\"\r\n}\r\n"
 								},
 								"url": {
-									"raw": "http://127.0.0.1:8000/api/barang/10",
-									"protocol": "http",
+									"raw": "{{base_url}}/api/barang/10",
 									"host": [
-										"127",
-										"0",
-										"0",
-										"1"
+										"{{base_url}}"
 									],
-									"port": "8000",
 									"path": [
 										"api",
 										"barang",
@@ -274,15 +249,10 @@
 									"raw": ""
 								},
 								"url": {
-									"raw": "http://127.0.0.1:8000/api/barang/5",
-									"protocol": "http",
+									"raw": "{{base_url}}/api/barang/5",
 									"host": [
-										"127",
-										"0",
-										"0",
-										"1"
+										"{{base_url}}"
 									],
-									"port": "8000",
 									"path": [
 										"api",
 										"barang",
@@ -324,15 +294,10 @@
 									}
 								],
 								"url": {
-									"raw": "http://127.0.0.1:8000/api/kategori",
-									"protocol": "http",
+									"raw": "{{base_url}}/api/kategori",
 									"host": [
-										"127",
-										"0",
-										"0",
-										"1"
+										"{{base_url}}"
 									],
-									"port": "8000",
 									"path": [
 										"api",
 										"kategori"
@@ -368,15 +333,10 @@
 									}
 								],
 								"url": {
-									"raw": "http://127.0.0.1:8000/api/kategori/1",
-									"protocol": "http",
+									"raw": "{{base_url}}/api/kategori/1",
 									"host": [
-										"127",
-										"0",
-										"0",
-										"1"
+										"{{base_url}}"
 									],
-									"port": "8000",
 									"path": [
 										"api",
 										"kategori",
@@ -417,15 +377,10 @@
 									"raw": "{\r\n\"kategori_nama\": \"categori 644\",\r\n\"kategori_keterangan\": \"Keterangan Kategori\"\r\n}\r\n"
 								},
 								"url": {
-									"raw": "http://127.0.0.1:8000/api/kategori",
-									"protocol": "http",
+									"raw": "{{base_url}}/api/kategori",
 									"host": [
-										"127",
-										"0",
-										"0",
-										"1"
+										"{{base_url}}"
 									],
-									"port": "8000",
 									"path": [
 										"api",
 										"kategori"
@@ -465,15 +420,10 @@
 									"raw": "{\r\n\"kategori_nama\": \"categori test2\",\r\n\"kategori_keterangan\": \"Keterangan Kategori\"\r\n}\r\n"
 								},
 								"url": {
-									"raw": "http://127.0.0.1:8000/api/kategori/7",
-									"protocol": "http",
+									"raw": "{{base_url}}/api/kategori/7",
 									"host": [
-										"127",
-										"0",
-										"0",
-										"1"
+										"{{base_url}}"
 									],
-									"port": "8000",
 									"path": [
 										"api",
 										"kategori",
@@ -514,15 +464,10 @@
 									"raw": ""
 								},
 								"url": {
-									"raw": "http://127.0.0.1:8000/api/kategori/8",
-									"protocol": "http",
+									"raw": "{{base_url}}/api/kategori/8",
 									"host": [
-										"127",
-										"0",
-										"0",
-										"1"
+										"{{base_url}}"
 									],
-									"port": "8000",
 									"path": [
 										"api",
 										"kategori",
@@ -564,15 +509,10 @@
 									}
 								],
 								"url": {
-									"raw": "http://127.0.0.1:8000/api/barangmasuk",
-									"protocol": "http",
+									"raw": "{{base_url}}/api/barangmasuk",
 									"host": [
-										"127",
-										"0",
-										"0",
-										"1"
+										"{{base_url}}"
 									],
-									"port": "8000",
 									"path": [
 										"api",
 										"barangmasuk"
@@ -608,15 +548,10 @@
 									}
 								],
 								"url": {
-									"raw": "http://127.0.0.1:8000/api/barangmasuk/user",
-									"protocol": "http",
+									"raw": "{{base_url}}/api/barangmasuk/user",
 									"host": [
-										"127",
-										"0",
-										"0",
-										"1"
+										"{{base_url}}"
 									],
-									"port": "8000",
 									"path": [
 										"api",
 										"barangmasuk",
@@ -653,15 +588,10 @@
 									}
 								],
 								"url": {
-									"raw": "http://127.0.0.1:8000/api/barangmasuk/1",
-									"protocol": "http",
+									"raw": "{{base_url}}/api/barangmasuk/1",
 									"host": [
-										"127",
-										"0",
-										"0",
-										"1"
+										"{{base_url}}"
 									],
-									"port": "8000",
 									"path": [
 										"api",
 										"barangmasuk",
@@ -702,15 +632,10 @@
 									"raw": "{\r\n\"tanggal\": \"2022-01-15\",\r\n\"barang_id\": 5,\r\n\"kuantitas\": 5\r\n}\r\n"
 								},
 								"url": {
-									"raw": "http://127.0.0.1:8000/api/barangmasuk",
-									"protocol": "http",
+									"raw": "{{base_url}}/api/barangmasuk",
 									"host": [
-										"127",
-										"0",
-										"0",
-										"1"
+										"{{base_url}}"
 									],
-									"port": "8000",
 									"path": [
 										"api",
 										"barangmasuk"
@@ -750,15 +675,10 @@
 									"raw": "{\r\n\"tanggal\": \"2022-01-15\",\r\n\"barang_id\": 5,\r\n\"kuantitas\": 20\r\n}\r\n"
 								},
 								"url": {
-									"raw": "http://127.0.0.1:8000/api/barangmasuk/1",
-									"protocol": "http",
+									"raw": "{{base_url}}/api/barangmasuk/1",
 									"host": [
-										"127",
-										"0",
-										"0",
-										"1"
+										"{{base_url}}"
 									],
-									"port": "8000",
 									"path": [
 										"api",
 										"barangmasuk",
@@ -799,15 +719,10 @@
 									"raw": ""
 								},
 								"url": {
-									"raw": "http://127.0.0.1:8000/api/barangmasuk/1",
-									"protocol": "http",
+									"raw": "{{base_url}}/api/barangmasuk/1",
 									"host": [
-										"127",
-										"0",
-										"0",
-										"1"
+										"{{base_url}}"
 									],
-									"port": "8000",
 									"path": [
 										"api",
 										"barangmasuk",
@@ -849,15 +764,10 @@
 									}
 								],
 								"url": {
-									"raw": "http://127.0.0.1:8000/api/barangkeluar",
-									"protocol": "http",
+									"raw": "{{base_url}}/api/barangkeluar",
 									"host": [
-										"127",
-										"0",
-										"0",
-										"1"
+										"{{base_url}}"
 									],
-									"port": "8000",
 									"path": [
 										"api",
 										"barangkeluar"
@@ -893,15 +803,10 @@
 									}
 								],
 								"url": {
-									"raw": "http://127.0.0.1:8000/api/barangkeluar/user",
-									"protocol": "http",
+									"raw": "{{base_url}}/api/barangkeluar/user",
 									"host": [
-										"127",
-										"0",
-										"0",
-										"1"
+										"{{base_url}}"
 									],
-									"port": "8000",
 									"path": [
 										"api",
 										"barangkeluar",
@@ -938,19 +843,14 @@
 									}
 								],
 								"url": {
-									"raw": "http://127.0.0.1:8000/api/barangkeluar/1",
-									"protocol": "http",
+									"raw": "{{base_url}}/api/barangkeluar/4",
 									"host": [
-										"127",
-										"0",
-										"0",
-										"1"
+										"{{base_url}}"
 									],
-									"port": "8000",
 									"path": [
 										"api",
 										"barangkeluar",
-										"1"
+										"4"
 									]
 								}
 							},
@@ -987,15 +887,10 @@
 									"raw": "{\r\n\"tanggal\": \"2022-01-15\",\r\n\"barang_id\": 5,\r\n\"kuantitas\": 10\r\n}\r\n"
 								},
 								"url": {
-									"raw": "http://127.0.0.1:8000/api/barangkeluar",
-									"protocol": "http",
+									"raw": "{{base_url}}/api/barangkeluar",
 									"host": [
-										"127",
-										"0",
-										"0",
-										"1"
+										"{{base_url}}"
 									],
-									"port": "8000",
 									"path": [
 										"api",
 										"barangkeluar"
@@ -1035,15 +930,10 @@
 									"raw": "{\r\n\"tanggal\": \"2022-01-15\",\r\n\"barang_id\": 5,\r\n\"kuantitas\": 50\r\n}\r\n"
 								},
 								"url": {
-									"raw": "http://127.0.0.1:8000/api/barangkeluar/10",
-									"protocol": "http",
+									"raw": "{{base_url}}/api/barangkeluar/10",
 									"host": [
-										"127",
-										"0",
-										"0",
-										"1"
+										"{{base_url}}"
 									],
-									"port": "8000",
 									"path": [
 										"api",
 										"barangkeluar",
@@ -1084,15 +974,10 @@
 									"raw": ""
 								},
 								"url": {
-									"raw": "http://127.0.0.1:8000/api/barangkeluar/10",
-									"protocol": "http",
+									"raw": "{{base_url}}/api/barangkeluar/10",
 									"host": [
-										"127",
-										"0",
-										"0",
-										"1"
+										"{{base_url}}"
 									],
-									"port": "8000",
 									"path": [
 										"api",
 										"barangkeluar",
@@ -1139,15 +1024,10 @@
 									}
 								],
 								"url": {
-									"raw": "http://127.0.0.1:8000/api/laporanbarang?filter=monthly&tanggal_mulai=2022-01-14&tanggal_akhir=2022-01-15",
-									"protocol": "http",
+									"raw": "{{base_url}}/api/laporanbarang?filter=monthly&tanggal_mulai=2022-01-14&tanggal_akhir=2022-01-15",
 									"host": [
-										"127",
-										"0",
-										"0",
-										"1"
+										"{{base_url}}"
 									],
-									"port": "8000",
 									"path": [
 										"api",
 										"laporanbarang"
@@ -1199,15 +1079,10 @@
 									}
 								],
 								"url": {
-									"raw": "http://127.0.0.1:8000/api/laporanbarangmasuk?filter=monthly&tanggal_mulai=2022-01-14&tanggal_akhir=2022-01-15",
-									"protocol": "http",
+									"raw": "{{base_url}}/api/laporanbarangmasuk?filter=monthly&tanggal_mulai=2022-01-14&tanggal_akhir=2022-01-15",
 									"host": [
-										"127",
-										"0",
-										"0",
-										"1"
+										"{{base_url}}"
 									],
-									"port": "8000",
 									"path": [
 										"api",
 										"laporanbarangmasuk"
@@ -1259,15 +1134,10 @@
 									}
 								],
 								"url": {
-									"raw": "http://127.0.0.1:8000/api/laporanbarangkeluar?filter=yearly&tanggal_mulai=2022-01-14&tanggal_akhir=2022-01-15",
-									"protocol": "http",
+									"raw": "{{base_url}}/api/laporanbarangkeluar?filter=yearly&tanggal_mulai=2022-01-14&tanggal_akhir=2022-01-15",
 									"host": [
-										"127",
-										"0",
-										"0",
-										"1"
+										"{{base_url}}"
 									],
-									"port": "8000",
 									"path": [
 										"api",
 										"laporanbarangkeluar"
@@ -1304,24 +1174,23 @@
 					{
 						"key": "Content-Type",
 						"value": "application/json",
-						"type": "default"
+						"type": "text"
 					},
 					{
 						"key": "Accept",
 						"value": "application/json",
-						"type": "default"
+						"type": "text"
 					}
 				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"name\": \"Reno Gunawan\",\r\n\"email\": \"rengawan@gmail.com\",\r\n\"password\": \"12345678\",\r\n\"password_confirmation\": \"12345678\"\r\n}"
+				},
 				"url": {
-					"raw": "http://127.0.0.1:8000/api/auth/register?email=dian@gmail.com&password=12345678&rule_id=1&name=dian sopian&password_confirmation=12345678",
-					"protocol": "http",
+					"raw": "{{base_url}}/api/auth/register?=application/json&=application/json",
 					"host": [
-						"127",
-						"0",
-						"0",
-						"1"
+						"{{base_url}}"
 					],
-					"port": "8000",
 					"path": [
 						"api",
 						"auth",
@@ -1329,24 +1198,12 @@
 					],
 					"query": [
 						{
-							"key": "email",
-							"value": "dian@gmail.com"
+							"key": "",
+							"value": "application/json"
 						},
 						{
-							"key": "password",
-							"value": "12345678"
-						},
-						{
-							"key": "rule_id",
-							"value": "1"
-						},
-						{
-							"key": "name",
-							"value": "dian sopian"
-						},
-						{
-							"key": "password_confirmation",
-							"value": "12345678"
+							"key": "",
+							"value": "application/json"
 						}
 					]
 				}
@@ -1371,32 +1228,17 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": ""
+					"raw": "{\r\n\"email\": \"rengawan@gmail.com\",\r\n\"password\": \"12345678\"\r\n}"
 				},
 				"url": {
-					"raw": "http://127.0.0.1:8000/api/auth/login?email=rengawan@gmail.com&password=12345678",
-					"protocol": "http",
+					"raw": "{{base_url}}/api/auth/login",
 					"host": [
-						"127",
-						"0",
-						"0",
-						"1"
+						"{{base_url}}"
 					],
-					"port": "8000",
 					"path": [
 						"api",
 						"auth",
 						"login"
-					],
-					"query": [
-						{
-							"key": "email",
-							"value": "rengawan@gmail.com"
-						},
-						{
-							"key": "password",
-							"value": "12345678"
-						}
 					]
 				}
 			},
@@ -1433,15 +1275,10 @@
 					"raw": ""
 				},
 				"url": {
-					"raw": "http://127.0.0.1:8000/api/auth/logout",
-					"protocol": "http",
+					"raw": "{{base_url}}/api/auth/logout",
 					"host": [
-						"127",
-						"0",
-						"0",
-						"1"
+						"{{base_url}}"
 					],
-					"port": "8000",
 					"path": [
 						"api",
 						"auth",
@@ -1475,7 +1312,11 @@
 	"variable": [
 		{
 			"key": "token",
-			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC8xMjcuMC4wLjE6ODAwMFwvYXBpXC9hdXRoXC9sb2dpbiIsImlhdCI6MTY0NDc1ODA1MCwiZXhwIjoxNjQ0NzYxNjUwLCJuYmYiOjE2NDQ3NTgwNTAsImp0aSI6ImVSblM0WWJUUWVSaGJzZGsiLCJzdWIiOjEsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.jAX6wYjF_6T1bqfi5PmbmWy_AZJf1lWY1ydYddlKB4M"
+			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sYXJhdmVscmVzdGFwaS5yZW5nYXdhbi5jb21cL2FwaVwvYXV0aFwvbG9naW4iLCJpYXQiOjE2NDUzNDA5MzcsImV4cCI6MTY0NTM0NDUzNywibmJmIjoxNjQ1MzQwOTM3LCJqdGkiOiJHRVJSVFk2RUhhUEhBRkI4Iiwic3ViIjoxLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.oXvBnZsSkn9HWBfnNJWioicKaBCgwG79lzoSwsmQCdw"
+		},
+		{
+			"key": "base_url",
+			"value": "http://localhost:8000"
 		}
 	]
 }
