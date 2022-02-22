@@ -5,38 +5,26 @@ Example Restfull api with laravel framework
 
 ## Dependency
 * Apache/Nginx
-* PHP 7.4
+* PHP 7.3 - 8.1
 * Composer
 * Mysql 5.7
 
 
+
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+Use the powershell/terminal for the installation.
 
 ```bash
-pip install foobar
+$ git clone https://github.com/rengawan/laravel-restfull-api.git
+$ composer install
+$ composer dump-autoload
+$ cp .env.example .env
 ```
-
+Configure the .env file
 ## Usage
 
-```python
-import foobar
-
-# returns 'words'
-foobar.pluralize('word')
-
-# returns 'geese'
-foobar.pluralize('goose')
-
-# returns 'phenomenon'
-foobar.singularize('phenomena')
+```bash
+$ php artisan serve
 ```
 
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
-
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
