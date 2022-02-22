@@ -21,7 +21,14 @@ $ composer install
 $ composer dump-autoload
 $ cp .env.example .env
 ```
-Configure the .env file
+* Configure mysql database and create database schema
+* Configure the .env file
+* Run database migration with this command bellow
+```bash
+$ php artisan migrate:fresh --seed
+```
+
+
 ## Usage
 
 ```bash
