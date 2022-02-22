@@ -27,4 +27,5 @@ Configure the .env file
 ```bash
 $ php artisan serve
 ```
+you can import postman collection with file Laravel Rest Api.postman_collection.json and configure variables at collection level
 
